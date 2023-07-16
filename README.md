@@ -17,12 +17,14 @@ The Multiple Disease Prediction System is a web-based application developed usin
 
 After inputting the values from the dataset we got correct predictions and the snapshots are given below:
 
-<img width="918" alt="diabetes pred 1" src="https://github.com/Sanchariii/Multiple-Disease-Prediction-System-Using-Streamlit/assets/88083502/de7fe65e-8d03-48ad-8d8a-a667676d1804">
+
+<img width="918" alt="diabetes pred 1" src="https://github.com/Sanchariii/Health-Assist/assets/88083502/6afeaad0-c629-4cc0-a5da-12378d1a614f">
+
+<img width="916" alt="diabetes pred" src="https://github.com/Sanchariii/Health-Assist/assets/88083502/0a6c2516-ec7f-4565-84af-c484084211f0">
 
 
-<img width="916" alt="diabetes pred" src="https://github.com/Sanchariii/Multiple-Disease-Prediction-System-Using-Streamlit/assets/88083502/203bcf4b-e8e5-408c-9120-c5c62f9190d7">
+<img width="960" alt="parkinsons pred" src="https://github.com/Sanchariii/Health-Assist/assets/88083502/722c4519-d17b-4076-b5f7-2a760a736da9">
 
-<img width="960" alt="parkinsons pred" src="https://github.com/Sanchariii/Multiple-Disease-Prediction-System-Using-Streamlit/assets/88083502/2c3b2fc9-f06d-43e9-8421-068be35241b5">
 
 
 # Installation
@@ -30,12 +32,12 @@ After inputting the values from the dataset we got correct predictions and the s
 
 1.Clone the repository:
 
-``` git clone https://github.com/Sanchariiii/Multiple-Disease-Prediction-System-Using-Streamlit.git ```
+``` git clone https://github.com/Sanchariiii/Health-Assist.git ```
 
 
 2.Navigate to the project directory:
 
-``` cd Multiple-Disease-Prediction-System-Using-Streamlit ```
+``` cd Health-Assist ```
 
 3.Run the application:
 
