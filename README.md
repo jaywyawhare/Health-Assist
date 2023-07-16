@@ -1,7 +1,7 @@
-# Multiple Disease Prediction System Using Streamlit
+# Health Assist
 
 # Introduction
-The Multiple Disease Prediction System is a web-based application developed using Streamlit framework that allows users to input values for certain symptoms and the system will predict if the user have Diabetes , Heart Disease or Parkinson's Disease. This system aims to assist users in identifying potential diseases quickly and conveniently, promoting early detection and timely medical intervention.
+Health Assist is a web-based application developed using Streamlit framework that allows users to input values for certain symptoms and the system will predict if the user have Diabetes , Heart Disease or Parkinson's Disease. This system aims to assist users in identifying potential diseases quickly and conveniently, promoting early detection and timely medical intervention.
 
 # Features
 
