@@ -1,6 +1,7 @@
-pickle-mixin==1.0.2
-streamlit==1.23.1
-streamlit-option-menu==0.3.6
-numpy==1.24.3
-pandas==2.0.2
-matplotlib==3.7.2
+pickle-mixin
+streamlit
+streamlit-option-menu
+numpy
+pandas
+matplotlib
+scikit-learn
