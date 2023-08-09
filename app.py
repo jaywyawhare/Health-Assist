@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
 
-This is a temporary script file.
-"""
 
 import pickle
 import streamlit as st
@@ -18,10 +13,6 @@ heart_disease_model = pickle.load(open('./models/heart_disease_model.pkl', 'rb')
 parkinsons_model = pickle.load(open('./models/parkinsons_model.pkl', 'rb'))
 
 breast_cancer_model = pickle.load(open('./models/breast_model.pkl', 'rb'))
-
-# load pickle file
-
-
 
 # sidebar for navigation
 with st.sidebar:
