@@ -1,4 +1,4 @@
-joblib
+pickle
 streamlit
 streamlit-option-menu
 numpy

@@ -5,21 +5,21 @@ Spyder Editor
 This is a temporary script file.
 """
 
-import joblib
+import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = joblib.load(open('./models/diabetes_model.joblib', 'rb'))
+diabetes_model = pickle.load(open('./models/diabetes_model.pkl', 'rb'))
 
-heart_disease_model = joblib.load(open('./models/heart_disease_model.joblib', 'rb'))
+heart_disease_model = pickle.load(open('./models/heart_disease_model.pkl', 'rb'))
 
-parkinsons_model = joblib.load(open('./models/parkinsons_model.joblib', 'rb'))
+parkinsons_model = pickle.load(open('./models/parkinsons_model.pkl', 'rb'))
 
-breast_cancer_model = joblib.load(open('./models/breast_model.joblib', 'rb'))
+breast_cancer_model = pickle.load(open('./models/breast_model.pkl', 'rb'))
 
-# load joblib file
+# load pickle file
 
 
 
