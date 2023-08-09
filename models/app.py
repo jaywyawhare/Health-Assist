@@ -13,9 +13,9 @@ from streamlit_option_menu import option_menu
 
 diabetes_model = pickle.load(open('C:/Users/Sanchari/Desktop/Cse/projects/Health-Assist/models/diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/Sanchari/Desktop/Cse/projects/Health-Assist/models/diabetes_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('C:/Users/Sanchari/Desktop/Cse/projects/Health-Assist/models/heart_disease_model.sav', 'rb'))
 
-parkinsons_model = pickle.load(open('C:/Users/Sanchari/Desktop/Cse/projects/Health-Assist/models/diabetes_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('C:/Users/Sanchari/Desktop/Cse/projects/Health-Assist/models/parkinsons_model.sav', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
@@ -237,7 +237,6 @@ if (selected == "Parkinsons Prediction"):
           parkinsons_diagnosis = "The person does not have Parkinson's disease"
         
     st.success(parkinsons_diagnosis)
-
 
 
 
