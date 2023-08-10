@@ -12,7 +12,7 @@ Health Assist is a web-based application developed using Streamlit framework tha
 
 - Fast and efficient prediction algorithm.
 
-- Easy to deploy and use.
+
 
 # Snapshots:
 
