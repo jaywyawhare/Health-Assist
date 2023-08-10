@@ -1,51 +1,58 @@
 # Health Assist
 
 # Introduction
-Health Assist is a web-based application developed using Streamlit framework that allows users to input values for certain symptoms and the system will predict if the user have Diabetes , Heart Disease or Parkinson's Disease. This system aims to assist users in identifying potential diseases quickly and conveniently, promoting early detection and timely medical intervention.
+
+Health Assist is a web-based application developed using Streamlit framework that allows users to input values for certain symptoms and the system will predict if the user have Diabetes , Heart Disease, Parkinson's Disease and Breast cancer. This system aims to assist users in identifying potential diseases quickly and conveniently, promoting early detection and timely medical intervention.
 
 # Features
 
-* Predicts multiple diseases based on user-provided symptoms.
+- Predicts multiple diseases based on user-provided symptoms.
 
-* User-friendly web interface for symptom input and disease prediction.
+- User-friendly web interface for symptom input and disease prediction.
 
-* Fast and efficient prediction algorithm.
+- Fast and efficient prediction algorithm.
 
-* Easy to deploy and use. 
+
 
 # Snapshots:
 
 After inputting the values from the dataset we got correct predictions and the snapshots are given below:
 
+<img width="918" alt="diabetes pred 1" src="./img/diabetes pred 1.png">
 
-<img width="918" alt="diabetes pred 1" src="https://github.com/Sanchariii/Health-Assist/assets/88083502/6afeaad0-c629-4cc0-a5da-12378d1a614f">
+<img width="916" alt="diabetes pred" src="./img/diabetes pred.png">
 
-<img width="916" alt="diabetes pred" src="https://github.com/Sanchariii/Health-Assist/assets/88083502/0a6c2516-ec7f-4565-84af-c484084211f0">
+<img width="960" alt="parkinsons pred" src="./img/parkinsons pred.png">
 
-
-<img width="960" alt="parkinsons pred" src="https://github.com/Sanchariii/Health-Assist/assets/88083502/722c4519-d17b-4076-b5f7-2a760a736da9">
-
-
+<img width="960" alt="breast cancer pred" src="./img/breast-cancer-prediction.png">
 
 # Installation
 
+1. Clone the repository:
 
-1.Clone the repository:
+   ```bash
+       git clone https://github.com/Sanchariiii/Health-Assist.git
+   ```
 
-``` git clone https://github.com/Sanchariiii/Health-Assist.git ```
+2. Navigate to the project directory:
 
+   ```bash
+       cd Health-Assist
+   ```
 
-2.Navigate to the project directory:
+3. Install all the necessary dependencies.
 
-``` cd Health-Assist ```
+   ```bash
+       pip install -r requirements.txt
+   ```
 
-3.Run the application:
+4. Run the application:
 
-``` streamlit run app.py ```
+   ```bash
+       streamlit run app.py
+   ```
 
-4. Install all the necessary dependencies.
-
-5.Access the application by visiting http://localhost:8501 in your web browser
+5. Access the application by visiting http://localhost:8501 in your web browser
 
 # Usage
 
@@ -59,21 +66,18 @@ After inputting the values from the dataset we got correct predictions and the s
 
 # Technologies Used
 
-* Python
+- Python
 
-* Streamlit
+- Streamlit
 
-* Scikit-learn
+- Scikit-learn
 
-* Pandas
+- Pandas
 
-* NumPy
+- NumPy
 
-* pickle
-
+- pickle
 
 # Contributing
 
 Contributions to the Multiple Disease Prediction System are welcome! If you find any bugs or want to enhance the functionality, please submit an issue or a pull request.
-
-
